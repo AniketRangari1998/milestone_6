@@ -11,7 +11,7 @@
 	<groupId>com.spring</groupId>
 	<artifactId>milestone_6</artifactId>
 	<version>1</version>
-	<packaging>war</packaging>
+	<packaging>jar</packaging>
 	<name>milestone_6</name>
 	<description>Demo project for Spring Boot</description>
 	<properties>
