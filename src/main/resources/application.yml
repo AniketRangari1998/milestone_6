@@ -1,0 +1,13 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://databasemile6.mysql.database.azure.com:3306/test?useSSL=true&requireSSL=false
+    username: ${DB_USERNAME:azureuser@databasemile6}
+    password: ${DB_PASSWORD:aniket@12345} 
+    
+  jpa:
+    database-platform: org.hibernate.dialect.MySQL8Dialect
+    generate-ddl: true
+    show-sql: true
+    hibernate:
+      ddl-auto: update
